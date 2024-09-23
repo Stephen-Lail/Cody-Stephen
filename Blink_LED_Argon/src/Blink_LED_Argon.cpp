@@ -29,16 +29,34 @@ void setup()
 void loop()
 {
 	// Turn on the LED
-	digitalWrite(MY_LED, HIGH);
-
-	// Leave it on for one second
-	delay(3000);
-
-	// Turn it off
-	digitalWrite(MY_LED, LOW);
-
-	// Wait one more second
-	delay(1000);
+	digitalWrite(MY_LED, HIGH);  //long blink 
+  delay(400);                       
+  digitalWrite(MY_LED, LOW); 
+  delay(400);                      
+  digitalWrite(MY_LED, HIGH);  //long blink
+  delay(400); 
+  digitalWrite(MY_LED, LOW);   
+  delay(400);
+  digitalWrite(MY_LED, HIGH);  //long blink
+  delay(400);
+  digitalWrite(MY_LED, LOW);   
+  delay(400); 
+  digitalWrite(MY_LED, HIGH);  //long blink
+  delay(400);                       
+  digitalWrite(MY_LED, LOW);    
+  delay(200);                      
+  digitalWrite(MY_LED, HIGH);  //short blink
+  delay(200); 
+  digitalWrite(MY_LED, LOW);
+  delay(200);
+  digitalWrite(MY_LED, HIGH);  //short blink
+  delay(200);
+  digitalWrite(MY_LED, LOW);
+  delay(200);
+  digitalWrite(MY_LED, HIGH);  //short blink
+  delay(200);
+  digitalWrite(MY_LED, LOW);
+}
 
 	// And repeat!
 }
