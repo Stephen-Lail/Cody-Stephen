@@ -4,6 +4,10 @@ In this repository you can find the code we used for the circuit, how to put a c
 
 
 
+
+
+
+
 Instructions for building circuit
 
 1. Using the description above, the photo, and https://docs.particle.io/getting-started/hardware-tutorials/hardware-examples/#blink-an-external-led, build the external LED circuit. 
