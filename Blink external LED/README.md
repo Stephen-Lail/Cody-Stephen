@@ -2,6 +2,7 @@ In this repositor you can find the code we used for the circuit, how to put a ci
 
 [circuit diagram here](./circuit.png)
 
+
 Instructions for building circuit
 
 1. Using the description above, the photo, and https://docs.particle.io/getting-started/hardware-tutorials/hardware-examples/#blink-an-external-led, build the external LED circuit. 
@@ -11,7 +12,5 @@ Instructions for building circuit
     - Both sides of the resistor
 3. Before plugging in the USB cable, confirm with Bresnahan that your circuit looks correct.
 4. Blink the LED using our old Blink_LED project but changing from the pin that we used in that script (to blink the onboard LED) to the pin corresponding to the GPIO pin you chose for this circuit. Make sure you change all references to the pin in the script. 
-
-
 
 [License](./LICENSE.txt)
