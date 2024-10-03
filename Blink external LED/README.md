@@ -1,6 +1,7 @@
-In this repositor you can find the code we used for the circuit, how to put a circuit together, and the diagram for our circuit.
+In this repository you can find the code we used for the circuit, how to put a circuit together, and the diagram for our circuit.
 
 [circuit diagram here](./circuit.png)
+
 
 
 Instructions for building circuit
